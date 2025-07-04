@@ -25,3 +25,16 @@ In our specific case, the RAG system we want to implement aims to provide an LLM
   <img src="https://github.com/MatVitale6.png" width="80">
 </a>
 
+
+
+## Cosa installare per il frontend 
+(questo lo sto scrivendo qui solo per comoditá poi lo spostiamo e lo scriviamo piú carino)
+
+npm create vite@latest rag-frontend --template react
+  poi seleziona react e TypeScript
+
+cd rag-frontend
+npm install
+npm run dev
+(forse ti serve installare node.js dal sito ufficiale: https://nodejs.org/en/download)
+poi ho installato bootstrap e ho aggiunto un po di cose al gitignore
